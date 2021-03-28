@@ -1,0 +1,53 @@
+/*Propiedades de imagen de encabezado*/
+.img-header{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+/*Separador de div rows*/
+.menu-sep{
+	padding-top: 10px;
+}
+/*Centrar textos*/
+.text-center{
+	text-align: center;
+}
+
+/*Iluminar botones*/
+.iluminar:hover{
+	color: red;
+}
+
+/*Definir el tamaño del iframe*/
+.video{
+	display: block;
+	position: absolute;
+	top: 15%;
+    left: 45%;
+}
+/*Newsletter*/
+.newsletter{
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	padding-top: 12px;
+}
+.button-news{
+	width: 70%;
+	border-radius: 35%;
+    font-size: 40%;
+}
+.font-news{
+	color: #000;
+}
+
+
+
+.centro{
+  		text-align: center;
+  	}
+  	.justificado{
+  		text-align: justify;
+  	}
+  	.sombreado{
+  		background-color: #F0F0F0;
+  	} 

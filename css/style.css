@@ -1,0 +1,198 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.body{
+  background-color:#fff5da; 
+    }
+
+.centro{
+  		text-align: center;
+  	}
+  	.justificado{
+  		text-align: justify;
+  	}
+  	.sombreado{
+  		background-color: #f4455d;
+  	} 
+  	a{
+  		text-decoration: none;
+  		color: #000;
+  	}
+  	.imgalign{
+        display:block;
+        margin:auto;
+        max-width: 480px;
+        border-radius: 8px;
+        object-fit: contain;
+
+  	}
+  	.headcolor{
+  		
+      margin-top: 1.5%; 
+      text-align: center;
+  	}
+  .enlace {
+  	text-decoration: none;
+  	color: #B411A5;
+  }
+/*Clase para contenedor header con imagen y texto encima*/
+.contenedor{ 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+/*Clase para texto izquierda arriba del header*/
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/*Texto para header en el centrado de la imagen de encabezado*/
+.centrado{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado2{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+
+    
+}
+/*Texto para encabezado de texto encima estilo*/
+.header-text{
+ color: #FFF;
+ font-weight: bold;
+ font-size: 50px;
+ padding-top: 1.5em;
+ font-family: Merriweather;
+}
+
+.footer-text{
+ color: #FFF;
+ font-weight: bold;
+ font-size: 20px;
+ font-family: Merriweather;
+}
+
+/*Capa de sombreado para la imagen de encabezado*/
+.img-header{
+
+  
+  filter:brightness(0.8);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  background: #fcf5da;
+  object-fit: cover;
+  
+}
+.img-header2{
+
+  
+  filter:brightness(0.4);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10vh;
+  background: #fcf5da;
+  object-fit: cover;
+  margin-bottom: -30px;
+  
+}
+
+/*Formateado del menú de opciones*/
+.menu-formato{
+  font color: #2f1728;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  /*font-size: calc(0.6em + 0.6vw);*/
+}
+.menu:hover{
+  color:#fff;
+}
+.menu-div{
+    border-color: #2196F3!important;
+    background-color: #A6D5FF!important;
+    border-left: 6px solid #2196F3!important;
+    text-align: center;
+    border-radius: 3px;
+}
+/*Dando color negro a las etiquetas de encabezado*/
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+p{
+  font-size: 15px;
+}
+
+.cat{
+  text-align: justify;
+}
+
+.text-sep:hover{
+ font-size: 20px;
+}
+
+/*Agregando efecto al pasar el mouse en la imagen y texto*/
+.zoom-img{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 1s ease-out;
+}
+.zoom-img:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+/*-----------------------------------------*/
+ .enlace-menu:hover{
+    color: #fcf5da;
+  }
+  .logo-menu{
+    width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+  }
+  .menu-fixed {
+  margin: auto;
+  position:fixed;
+  z-index:1000;
+  top:0;
+  max-width:auto;
+  width:100%;
+  box-shadow:0px 4px 3px rgba(0,0,0,.5);
+  background-color: #2f1728;
+  padding-top:5em;
+  padding-bottom: 1px;
+  font color: #ff6b71;
+    }
+ .menu-fixed a{
+  text-align: left;
+  /*font-size: calc(0.6em + 0.6vw);*/
+ }
+ .menu-fixed a:hover{
+   color: #7052f2;
+ }
+ @media (max-width: 100%){
+  .menu-fixed{
+    width: 80%;
+  }
+
+.blanco{
+  font color: #fff5da;
+}
